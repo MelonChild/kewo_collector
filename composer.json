@@ -1,0 +1,22 @@
+{
+    "name": "kewo/collector",
+    "description": "An article collector used to generate seo articles",
+    "require": {
+        "php": ">=7.0.0",
+        "jaeger/querylist": "v4.2.1",
+        "jaeger/http": "1.3"
+    },
+    "require-dev": {
+        "barryvdh/laravel-debugbar": "v3.2.9"
+    },
+    "license": "MIT",
+    "authors": [{
+        "name": "idealCoder",
+        "email": "melonchild@outlook.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Kewo\\Collector\\": "src/"
+        }
+    }
+}
